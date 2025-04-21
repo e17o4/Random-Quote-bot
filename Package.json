@@ -1,13 +1,13 @@
 {
-  "name": "random-quote-bot",
+  "name": "discord-quote-bot",
   "version": "1.0.0",
-  "description": "A simple Discord bot that posts random quotes.",
+  "description": "A simple Discord bot that sends random quotes.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.13.0",
+    "discord.js": "^14.14.1",
     "dotenv": "^16.3.1"
   }
 }
