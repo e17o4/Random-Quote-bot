@@ -1,14 +1,13 @@
 {
-  "name": "discord-quote-bot",
+  "name": "random-quote-bot",
   "version": "1.0.0",
-  "description": "A Discord bot that responds with a random quote when you type !quote",
+  "description": "A simple Discord bot that posts random quotes.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "YourName",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.11.0"
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
   }
 }
